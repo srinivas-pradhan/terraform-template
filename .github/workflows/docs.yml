@@ -16,4 +16,5 @@ jobs:
         uses: terraform-docs/gh-actions@main
         with:
           working-dir: .
-
+      - name: Commit changes to the repository
+        uses: stefanzweifel/git-auto-commit-action@v4
