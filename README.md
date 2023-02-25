@@ -33,3 +33,36 @@ No changes. Your infrastructure matches the configuration.
 Terraform has compared your real infrastructure against your configuration and found no
 differences, so no changes are needed.
 ```
+### Manually execute Terraform Docs
+```
+terraform-docs -c .terraform-docs.yml .
+README.md updated successfully
+```
+<!-- BEGIN_TF_DOCS -->
+# Module Documentation
+  ## Requirements
+
+| Name | Version |
+|------|---------|
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | 4.34.0 |
+
+## Providers
+
+No providers.
+
+## Modules
+
+No modules.
+
+## Resources
+
+No resources.
+
+## Inputs
+
+No inputs.
+
+## Outputs
+
+No outputs.
+<!-- END_TF_DOCS -->
