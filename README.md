@@ -1,7 +1,7 @@
 # ADD README HERE
 
 
-# Template Repo Initialization
+### Template Repo Initialization
 #### terragrunt init
 ```
 Initializing the backend...
